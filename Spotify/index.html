@@ -5,16 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width= device-width, initial-scale=1.0">
     
-    //titulo da pagina
+    <!--titulo da pagina -->
     <title>Pedrofy</title>
-
-
-    //permite que arquivos de estilos externos sejam usados no codigo
+    
+    <!--importar fonte do google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--permite que arquivos de estilos externos sejam usados no codigo-->
     <link rel="stylesheet" href="css/style.css">
 
 
 </head>
 <body>
-    
+
+
+    <!--O atributo class serve para manipular um elemento em css ou js de acordo com o nome, nao afetando as outras divs-->
+    <div class="sidebar">
+        <div class="sidebar-wraper">
+
+            <div class="sidebar__logo">
+                <img src="img/logo.png"/>
+            </div><!--sidebar__logo-->
+
+
+            <div class="sidebar__menu">
+                <a class="sidebar__menu__selecionado" href="#"><i class="fas fa-home"></i>Inicio</a>
+                <a href="#"><i class="fas fa-search"></i>Buscar</a>
+                <a href="#"><i class="fas fa-database"></i>Biblioteca</a>
+            </div><!--sidebar menu-->
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </div><!--sidebar-->
+
+    <script src="js/all.min.js"></script>
 </body>
 </html>
