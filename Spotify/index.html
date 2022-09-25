@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    
+    <!--titulo da pagina -->
+    <title>Pedrofy</title>
+    
+    <!--importar fonte do google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--permite que arquivos de estilos externos sejam usados no codigo-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+
+
+    <!--O atributo class serve para manipular um elemento em css ou js de acordo com o nome, nao afetando as outras divs-->
+    <div class="sidebar">
+        <div class="sidebar-wraper">
+
+            <div class="sidebar__logo">
+                <img src="img/logo.png"/>
+            </div><!--sidebar__logo-->
+
+
+            <div class="sidebar__menu">
+                <a class="sidebar__menu__selecionado" href="#"><i class="fas fa-home"></i>Inicio</a>
+                <a href="#"><i class="fas fa-search"></i>Buscar</a>
+                <a href="#"><i class="fas fa-database"></i>Biblioteca</a>
+            </div><!--sidebar menu-->
+
+            <div class="sidebar__menu">
+                <p class="sidebar__menu__title">PLAYLISTS</p>
+
+                <div class="sidebar__menu__item">
+
+                    <div class="sidebar__menu__item__componente">
+                        +
+                    </div>
+                    <span> Criar Playlist</span>
+
+                </div>
+
+                <div class="sidebar__menu__item">
+
+                    <img id="curtida" src="img/curtida.png">
+                    <span> Musicas Curtidas </span>
+
+                </div>
+            </div>
+
+
+            <div class="sidebar__playlists">
+                <a href=""> Playlist 1 </a>
+                <a href=""> Playlist 2 </a>
+                <a href=""> Playlist 3 </a>
+                <a href=""> Playlist 4 </a>
+                <a href=""> Playlist 5 </a>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+    </div><!--sidebar-->
+
+    <div class="main">
+        <div class="main-wraper">
+
+            <div class="main__row">
+                <div class="main__row__title"><h2>Minhas Músicas</h2></div>
+
+                <div class="main__col" data-image="img/7min.jpg" data-artist="7 Minutoz" data-song="rap" data-file="assets/warface.mp3">
+                    <img src="img/7min.jpg"/>
+                    <h3>Rap Warface</h3>
+                    <p> 7 Minutoz </p>
+                </div>
+                
+                <div class="main__col" data-image="img/album-fundo-de-quintal.jpeg" data-artist="Guns N Roses" data-file="A Amizade" data-song="assets/amizade.mp3">
+                    <img src="img/album-fundo-de-quintal.jpeg"/>
+                    <h3> Amizade </h3>
+                    <p> Fundo de quintal </p>
+                </div>
+
+                <div class="main__col" data-image="img/album1.png" data-artist="Arlindo" data-song="Meu Poeta" data-file="assets/poeta.mp3">
+                    <img src="img/album1.png"/>
+                    <h3> Meu poeta </h3>
+                    <p> Arlindo Cruz e Zeca Pagodinho </p>
+                </div>
+
+                <div class="main__col" data-image="img/album2.jpeg" data-artist="Despeche" data-song="Enjoy the Silence" data-file="assets/enjoy.mp3">
+                    <img src="img/album2.jpeg"/>
+                    <h3> Enjoy the silence </h3>
+                    <p> Despeche Mode </p>
+                </div>
+
+                <div class="main__col" data-image="img/album3.jpeg" data-artist="Nicholas Brothers" data-song="Wheater" data-file="assets/color.mp3">
+                    <img src="img/album3.jpeg"/>
+                    <h3> The Night Wheater </h3>
+                    <p> The Nicholas Brothers </p>
+                </div>
+
+                <div class="main__col" data-image="img/beatles.jpeg" data-artist="The Beatles" data-song="Yesterday" data-file="assets/yesterday.mp3">
+                    <img src="img/beatles.jpeg"/>
+                    <h3> Yesterday </h3>
+                    <p> The Beatles </p>
+                </div>
+
+                <div class="main__col" data-image="img/gorillaz.jpeg" data-artist="Gorillaz" data-song="Feel Good" data-file="assets/feel.mp3">
+                    <img src="img/gorilaz.jpeg"/>
+                    <h3> Feel Good.inc </h3>
+                    <p> Gorillaz </p>
+                </div>
+
+                <div class="main__col" data-image="img/joelma.png" data-artist="Joelma" data-song="Voando" data-file="assets/joelma.mp3">
+                    <img src="img/joelma.png"/>
+                    <h3> Voando pro Para </h3>
+                    <p> Joelma </p>
+                </div>
+
+                <div class="main__col">
+                    <img src=""/>
+                    <h3>As 50 mais tocadas</h3>
+                    <p> Aqui vai a descrição da minha música</p>
+                </div>
+
+
+            </div>  
+
+        </div>
+    </div><!--main-->
+
+    <script src="js/all.min.js"></script>
+</body>
+</html>
